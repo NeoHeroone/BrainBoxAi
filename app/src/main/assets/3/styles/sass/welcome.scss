@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  transition: all .3s ease;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+header{
+  img{
+    width: 30%;
+    height: auto;
+    padding-top: 37px;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 29px;
+    line-height: 64px;
+    margin-bottom: 63px;
+    text-align: center;
+  }
+  .btns{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    a{
+      border-radius: 95px;
+      background: #E3E3E3;
+      padding: 17px 15px;
+      font-size: 18px;
+      line-height: 28.8px;
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+      color: #B1B1B1;
+      &:hover{
+        background: #141718;
+        color: #fff !important;
+        transform: scale(1.03);
+      }
+      &:active{
+        transform: scale(1);
+      }
+    }
+  }
+  .with{
+    color: #ACADB9;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    margin-bottom: 23px;
+  }
+  .btns2{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    justify-content: center;
+    a{
+      font-size: 14px;
+      border-radius: 10px;
+      font-weight: 600;
+      line-height: 21px;
+      letter-spacing: 2.549999952316284px;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 18px 36px;
+      &:hover{
+        transform: scale(1.03);
+      }
+      &:active{
+        transform: scale(1);
+      }
+      &:nth-child(1){
+        background: #D4463840;
+        color: #D44638;
+      }
+      &:nth-child(2){
+        background: #4267B240;
+        color: #4267B2;
+      }
+    }
+  }
+}
+
